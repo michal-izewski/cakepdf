@@ -1,5 +1,5 @@
 {
-    "name": "guenbakku/cakepdf",
+    "name": "michal-izewski/cakepdf",
     "description": "CakePHP plugin for converting HTML to PDF",
     "type": "library",
     "license": "MIT",
