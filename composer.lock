@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "156cf061ed391b274d68dac05ca05ada",
+    "content-hash": "9caddec8da2a4dba3f301b75e9ea2b4d",
     "packages": [
         {
             "name": "h4cc/wkhtmltoimage-amd64",
@@ -293,6 +293,46 @@
                 }
             ],
             "time": "2020-10-24T10:57:07+00:00"
+        },
+        {
+            "name": "zendre4/wkhtmltopdf-amd64",
+            "version": "0.12.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendre4/wkhtmltopdf-amd64.git",
+                "reference": "770da89f56f954f006aee2ff00d44169aa508661"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendre4/wkhtmltopdf-amd64/zipball/770da89f56f954f006aee2ff00d44169aa508661",
+                "reference": "770da89f56f954f006aee2ff00d44169aa508661",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltopdf-amd64"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "pdf",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltopdf"
+            ],
+            "time": "2020-11-24T12:38:33+00:00"
         }
     ],
     "packages-dev": [
