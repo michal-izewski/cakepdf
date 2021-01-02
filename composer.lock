@@ -4,48 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af0e81a1aacd322336a10e7b5fbc9085",
+    "content-hash": "ee4a4603f29948e5455b3f2f24da2083",
     "packages": [
-        {
-            "name": "h4cc/wkhtmltoimage-amd64",
-            "version": "0.12.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/h4cc/wkhtmltoimage-amd64.git",
-                "reference": "c4e33f635207af89a704205b8902fb5715ca88be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/h4cc/wkhtmltoimage-amd64/zipball/c4e33f635207af89a704205b8902fb5715ca88be",
-                "reference": "c4e33f635207af89a704205b8902fb5715ca88be",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/wkhtmltoimage-amd64"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL Version 3"
-            ],
-            "authors": [
-                {
-                    "name": "Julius Beckmann",
-                    "email": "github@h4cc.de"
-                }
-            ],
-            "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
-            "homepage": "http://wkhtmltopdf.org/",
-            "keywords": [
-                "binary",
-                "convert",
-                "image",
-                "snapshot",
-                "thumbnail",
-                "wkhtmltoimage"
-            ],
-            "time": "2018-01-15T07:23:40+00:00"
-        },
         {
             "name": "h4cc/wkhtmltoimage-i386",
             "version": "0.12.4",
@@ -190,6 +150,49 @@
                 "wkhtmltopdf"
             ],
             "time": "2017-06-16T07:50:40+00:00"
+        },
+        {
+            "name": "silvertipsoftware/wkhtmltoimage-amd64",
+            "version": "0.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SilvertipSoftware/wkhtmltoimage-amd64.git",
+                "reference": "cc62a944175b07084dc64762bc302ced832c6946"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SilvertipSoftware/wkhtmltoimage-amd64/zipball/cc62a944175b07084dc64762bc302ced832c6946",
+                "reference": "cc62a944175b07084dc64762bc302ced832c6946",
+                "shasum": ""
+            },
+            "replace": {
+                "h4cc/wkhtmltoimage-amd64": "0.12.4"
+            },
+            "bin": [
+                "bin/wkhtmltoimage-amd64"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Andre Sonnichsen",
+                    "email": "andre@silvertipsoftware.com"
+                }
+            ],
+            "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "image",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltoimage"
+            ],
+            "time": "2019-10-24T16:51:41+00:00"
         },
         {
             "name": "symfony/process",
